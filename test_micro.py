@@ -13,6 +13,7 @@ import json
 from myinterpreter import Myinterpreter
 import eel
 import threading
+import sys
 
 my = Myinterpreter()
 q = queue.Queue()
@@ -132,6 +133,9 @@ try:
             if rec.AcceptWaveform(data):
                 parler = json.loads(rec.FinalResult())
                 print(parler['text'])
+                if parler['text'].find('stop') >= 0:
+                    print('Bye!')
+                    sys.exit()
                 my.interpret(parler['text'])
                 path = returnImg(parler['text'])
                 eel.setImage(path)
