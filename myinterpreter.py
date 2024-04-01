@@ -1,20 +1,11 @@
 import pyautogui
-import time
+
 
 def press_key(key, number=None):
     if number:
-        i = 0
-        while(i < number):
-            pyautogui.keyDown(key)
-            time.sleep(0.1) 
-            pyautogui.keyUp(key)
-            i += 1
-            print(i)
+        pyautogui.press(key, presses=number)
     else:
-        pyautogui.keyDown(key)
-        time.sleep(0.1)  
-        pyautogui.keyUp(key)
-
+        pyautogui.press(key)
     
 def word_to_number(word):
     mots_numeriques = {
