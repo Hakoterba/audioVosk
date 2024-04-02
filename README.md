@@ -9,7 +9,9 @@ pip install -r requirement.txt
 python test_micro.py -m fr
   
 *Pour jouer:*  
-Être sur la page de l'émulateur en ayant lancé le script, chaque bouton peut être utilisé une ou plusieurs fois:  
+Être sur la page de l'émulateur en ayant lancé le script, chaque bouton peut être utilisé une ou plusieurs fois  
+
+*Commandes:*  
 **Bouton A** = "Oui" ou "Oui x fois"  
 **Bouton B** = "Non" ou "Non x fois"  
 **Fleche du haut** = "En haut" ou "En haut x fois"  
