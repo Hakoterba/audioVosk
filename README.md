@@ -16,5 +16,5 @@ python test_micro.py -m fr
 **Fleche du bas** = "En bas" ou "En bas x fois"  
 **Fleche de droite** = "A droite" ou "A droite x fois"  
 **Fleche de gauche** = "A gauche" ou "A gauche x fois"  
-**Start* = "Menu"  
+**Start** = "Menu"  
 **Select** = "Select"  
