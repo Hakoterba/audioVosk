@@ -24,7 +24,7 @@ python test_micro.py -m fr
 **Select** = "Select"  
 
 > [!CAUTION]  
-> Il faut que les touches soient bien configurés:
+> Il faut que les touches soient bien configurés:  
 A = touche 'l'  
 B = touche 'k'  
 Start = touche 'Entré'  
