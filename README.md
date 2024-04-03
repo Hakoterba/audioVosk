@@ -8,12 +8,12 @@ pip install -r requirement.txt
 *Pour lancer le script en français :*
 python test_micro.py -m fr
 
-[!IMPORTANT]
-*Pour jouer:*  
-Être sur la page de l'émulateur en ayant lancé le script, chaque bouton peut être utilisé une ou plusieurs fois  
+> [!IMPORTANT]
+> *Pour jouer:*  
+> Être sur la page de l'émulateur en ayant lancé le script, chaque bouton peut être utilisé une ou plusieurs fois  
 
-[!TIP]
-*Commandes:*  
+> [!TIP]
+> *Commandes:*  
 **Bouton A** = "Oui" ou "Oui x fois"  
 **Bouton B** = "Non" ou "Non x fois"  
 **Fleche du haut** = "En haut" ou "En haut x fois"  
