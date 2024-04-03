@@ -25,7 +25,8 @@ python test_micro.py -m fr
 
 > [!CAUTION]  
 > Il faut que les touches soient bien configurés:
-A = touche 'l'
-B = touche 'k'
-Start = touche 'Entré'
-Select = touche 'Espace'
+A = touche 'l'  
+B = touche 'k'  
+Start = touche 'Entré'  
+Select = touche 'Espace'  
+Les flèches ne changent pas
